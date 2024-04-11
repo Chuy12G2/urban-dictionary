@@ -1,0 +1,29 @@
+* {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    --federal-blue: #07004d;
+    --yellow: #f7b538;
+}
+
+body {
+    background-color: var(--federal-blue);
+    padding: 30px 200px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.title {
+    font-size: 5rem;
+    color: var(--yellow);
+}
+
+.termHeader {
+    font-size: 3rem;
+    color: darkgray;
+}
+
+.App {
+    margin: 0 auto;
+    width: 1500px;
+}

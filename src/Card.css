@@ -1,0 +1,46 @@
+/**color variables**/
+* {
+    --yellow: #f7b538;
+    --federal-blue: #07004d;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--yellow);
+    padding: 20px;
+    border: 2px solid black;
+    margin: 5px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+.definition {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.example {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.votes {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.thumbs {
+    margin-right: 15px;
+}
+
+.like {
+    color: #07004d;
+    margin-right: 5px;
+}
+
+.dislike {
+    color: orangered;
+    margin-right: 5px;
+}
